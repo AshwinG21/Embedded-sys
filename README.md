@@ -23,9 +23,9 @@ Below shown two images where in the 1st image shows the status of the simulation
 
 |Circuit|RAM Table|
 |:--:|:--:|
-|![CIRCUIT](https://github.com/259881/Embedded-sys/blob/883bd20604d7552dbffed5447cfd061bc1803b4e/Simulation/Circuit.gif)|![RAM_TABLE](https://github.com/259881/Embedded-sys/blob/233f462244119af26820fa5c5072e353ab16a4ae/Simulation/RAM_table.gif)|
+|![circuit](https://github.com/259881/Embedded-sys/blob/883bd20604d7552dbffed5447cfd061bc1803b4e/Simulation/Circuit.gif)|![Ram Table](https://github.com/259881/Embedded-sys/blob/233f462244119af26820fa5c5072e353ab16a4ae/Simulation/RAM_table.gif)|
 |CRO|Serial Monitor|
-|![CRO](https://github.com/hemanthasapu/embedded_systems_project_256889/blob/main/simulation/Oscilloscope.gif)|![ON](https://github.com/hemanthasapu/embedded_systems_project_256889/blob/main/simulation/Serial_Monitor.gif)|
+|![CRO](https://github.com/259881/Embedded-sys/blob/b0dabf3e9307da78662215f941f1645bfdfb131b/Simulation/Oscilloscope.gif)|![Monitor](https://github.com/259881/Embedded-sys/blob/b0dabf3e9307da78662215f941f1645bfdfb131b/Simulation/Serial_Monitor.gif)|
 
 ### Functionality 
 
