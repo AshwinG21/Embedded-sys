@@ -11,13 +11,13 @@ The heat control system is basically used to control the temperature inside a ca
 ### Simulation
 
 The operation of the heat control system is coded in embedded c and the working is demonstrated using a simuation software called ***SimulIDE***.
-Below shows two images where in the 1st image shows the status of the simulation when the system is OFF and the second image shows the status of the system when it is ON. 
+Below shown two images where in the 1st image shows the status of the simulation when the system is OFF and the second image shows the status of the system when it is ON. 
 
 #### ON
 ![ON](https://github.com/259881/Embedded-sys/blob/dd9619d0bf5ec8510b388c13f65093cd88ac2d20/Simulation/Simulation_fnal.gif)
 
 #### OFF
-![OFF](https://github.com/hemanthasapu/embedded_systems_project_256889/blob/main/simulation/Simulation_OFF.PNG)
+![OFF](https://github.com/259881/Embedded-sys/blob/63daabfd34aad10d20fc0353ba36f3eed21d5bf3/Simulation/Simulation_OFF.png)
 
 #### Outputs
 
@@ -30,7 +30,7 @@ Below shows two images where in the 1st image shows the status of the simulation
 ### Functionality 
 
 * When the two switches are closed, the first LED glows indicating the actuation of the system and the heater.
-* Next the analog input from the temperature sensor is received and digitized.
+* Next the analog input from the temperature sensor is received and digitized using ADC.
 * The digitized temperature input is visualized using Pulse Width Modulation.
 * The corresponding temperature values based on the digitized temperature input is transmitted by the UART protocol. Here the data is displayed on the serial monitor.
 
