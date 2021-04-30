@@ -4,11 +4,11 @@
 
 ## Heat Control System 
 
-#### CI and Code Quality
+### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/259881/Embedded-sys/actions/workflows/Compile.yml/badge.svg)](https://github.com/259881/Embedded-sys/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/259881/Embedded-sys/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/259881/Embedded-sys/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/643b7ca2b2dc4daba1e700c216bb87d9)](https://www.codacy.com/gh/Bharathgopal/Emb-C/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bharathgopal/Emb-C&amp;utm_campaign=Badge_Grade)|
+|[![Compile-Linux](https://github.com/259881/Embedded-sys/actions/workflows/Compile.yml/badge.svg)](https://github.com/259881/Embedded-sys/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/259881/Embedded-sys/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/259881/Embedded-sys/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c91f2537b80d4e63963a289d345607a4)](https://www.codacy.com/gh/259881/Embedded-sys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=259881/Embedded-sys&amp;utm_campaign=Badge_Grade)|
 
 ### Theory
 
@@ -51,15 +51,21 @@ Below shown two images where in the 1st image shows the status of the simulation
 |![ON](https://github.com/259881/Embedded-sys/blob/72dab35fbaa4344b5949eac735ad7130e6bf8596/Simulation/simulationON.png)|![OFF](https://github.com/259881/Embedded-sys/blob/a4fb835a0c452559859f0a83f764e4b510c4afe2/Simulation/simulationOFF.png)|
 
 --------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Activity_1
 ![Act1](https://github.com/259881/Embedded-sys/blob/84b68e77defa034239c5a0d180628e742bfaf1cc/Simulation/Activity_1.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Activity_2
 ![Act2](https://github.com/259881/Embedded-sys/blob/69e5d6d41ab7e30a3c4d7564f18f6de92c0b7269/Simulation/Activity_2.png)
+
 --------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Activity_3
 ![Act3](https://github.com/259881/Embedded-sys/blob/69e5d6d41ab7e30a3c4d7564f18f6de92c0b7269/Simulation/Activity_3.png)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Activity_4
 ![Act4](https://github.com/259881/Embedded-sys/blob/69e5d6d41ab7e30a3c4d7564f18f6de92c0b7269/Simulation/Activity_4.png)
----------------------------------------------------------------------------------------------------------------------------------------------
