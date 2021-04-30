@@ -3,7 +3,7 @@
  * 
  */
 #include <avr/io.h>
-#include "TemperatureSensorADC.h"
+#include "Activity_2.h"
 
 /**
  * @brief A function to initialise the analog to digital converter
