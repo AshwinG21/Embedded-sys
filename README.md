@@ -15,10 +15,12 @@ Below shown two images where in the 1st image shows the status of the simulation
 
 #### ON
 ![ON](https://github.com/259881/Embedded-sys/blob/dd9619d0bf5ec8510b388c13f65093cd88ac2d20/Simulation/Simulation_fnal.gif)
+
 -----------------------------------------------------------------------------------------------------------------------------------
+
 #### OFF
 ![OFF](https://github.com/259881/Embedded-sys/blob/63daabfd34aad10d20fc0353ba36f3eed21d5bf3/Simulation/Simulation_OFF.png)
-
+------------------------------------------------------------------------------------------------------------------------------------
 #### Outputs
 
 |Circuit|RAM Table|
@@ -47,10 +49,13 @@ Below shown two images where in the 1st image shows the status of the simulation
 ![Act1](https://github.com/259881/Embedded-sys/blob/84b68e77defa034239c5a0d180628e742bfaf1cc/Simulation/Activity_1.png)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ## Activity_2
+![Act2](https://github.com/259881/Embedded-sys/blob/69e5d6d41ab7e30a3c4d7564f18f6de92c0b7269/Simulation/Activity_2.png)
 --------------------------------------------------------------------------------------------------------------------------------------------
 ## Activity_3
+![Act3](https://github.com/259881/Embedded-sys/blob/69e5d6d41ab7e30a3c4d7564f18f6de92c0b7269/Simulation/Activity_3.png)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 ## Activity_4
+![Act4](https://github.com/259881/Embedded-sys/blob/69e5d6d41ab7e30a3c4d7564f18f6de92c0b7269/Simulation/Activity_4.png)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 #### CI and Code Quality
