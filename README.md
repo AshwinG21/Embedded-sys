@@ -42,14 +42,6 @@ Below shown two images where in the 1st image shows the status of the simulation
 * The digitized temperature input is visualized using Pulse Width Modulation.
 * The corresponding temperature values based on the digitized temperature input is transmitted by the UART protocol. Here the data is displayed on the serial monitor.
 
-# LED Blinking 
-
-## In Action
-
-|ON|OFF|
-|:--:|:--:|
-|![ON](https://github.com/259881/Embedded-sys/blob/72dab35fbaa4344b5949eac735ad7130e6bf8596/Simulation/simulationON.png)|![OFF](https://github.com/259881/Embedded-sys/blob/a4fb835a0c452559859f0a83f764e4b510c4afe2/Simulation/simulationOFF.png)|
-
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Activity_1
