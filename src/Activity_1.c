@@ -5,7 +5,7 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include "ButtonSensorHeaterLED.h"
+#include "Activity_1.h"
 
 /**
  * @brief A function to operate the button and heater sensor
