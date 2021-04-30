@@ -4,8 +4,8 @@
  */
 #include <avr/io.h>
 #include <util/delay.h>
-#include "ADC_PWMoutput.h"
-#include "SerialCommunicationUART.h"
+#include "Activity_3.h"
+#include "Activity_4.h"
 #include <string.h>
 
 /**
