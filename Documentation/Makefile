@@ -1,4 +1,4 @@
-DOXYFILE_NAME = Project_main
+DOXYFILE_NAME = project_main
 all:
 	doxygen ./$(DOXYFILE_NAME)
 
