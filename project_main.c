@@ -1,60 +1,41 @@
-/**
- * @brief The main program to execute the heat control system of a seat inside a car
- * 
- */
+//main application
 #include <avr/io.h>
-#include <util/delay.h>
-#include "ButtonSensorHeaterLED.h"
-#include "TemperatureSensorADC.h"
-#include "ADC_PWMoutput.h"
-#include "SerialCommunicationUART.h"
+#include<util/delay.h>
+#include "Activity_1.h"
+#include "Activity_2.h"
+#include "Activity_3.h"
+#include "Activity_4.h"
 
-/**
- * @brief Main function
- * 
- * @return int 
- */
 int main(void)
 {
-    Buttons_LED_Init(); //Initialise the button input registers
-    Init_ADC(); //Initialise the ADC
-    TimerWaveGenMode(); //Initialise the registers for TIMER1 as fast PWM
-    UARTinit(103); //Initialise UART registers
-    uint16_t temp;
+    initialise();
+     InitADC();
+    USARTInit(103);//Initialize ports for USART
+    uint16_t tempdata=0;// temperature value
 
-    /**
-     * @brief Infinite loop to run the microcontroller
-     * 
-     */
     while(1)
     {
-       if(BUTTON_SENSOR_ON) //Checking if the input bit to 7th bit of pinB is made 0 from 1 by pressing led
+        if(occupied)
         {
-
-            if(HEATER_ON) //Checking if the input bit to 6th bit of pinB is made 0 from 1 by pressing led
-            {
-                _delay_ms(20);
-                SET_LED; //make 0th bit of port B as 1, makes led glow
-                temp = Read_ADC(0);
-                outputbyPWM(temp);
-                _delay_ms(20);
-                
-            }
-            else
-            {
-                _delay_ms(20);
-                OCR1A = 0; //make PWM output 0 if switch is off
-                CLEAR_LED; // make led off
-            }
+            PORTB|=(1<<PB0);
+            _delay_ms(200);
+           
+            config_timer();
+            pwm_output();
+            _delay_ms(200);
+            
+            tempdata=temp_disp();
+            USARTWrite(tempdata);//send data to USART
+            _delay_ms(20);
         }
+        
         else
         {
-                
-                CLEAR_LED; //make led off
-                OCR1A = 0; //make PWM output 0 if both switches are off
-                _delay_ms(20);
+           PORTB&=~(1<<PB0);
+          _delay_ms(200);
+          OCR1A = 0; //PWM wave 0
         }
     }
-
- return 0;   
+    return 0;
 }
+© 2021 GitHub, Inc.
