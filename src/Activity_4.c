@@ -3,7 +3,7 @@
  * 
  */
 #include <avr/io.h>
-#include "SerialCommunicationUART.h"
+#include "Activity_4.h"
 /**
  * @brief A program to initialize the UART serial communication
  * 
@@ -32,7 +32,6 @@ while(UART_DATA_NOT_RECEIVED){
 return UDR0;
 
 }
-
 
 /**
  * @brief A function to write characters to send it to other UART port
