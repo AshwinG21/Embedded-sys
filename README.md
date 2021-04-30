@@ -4,6 +4,12 @@
 
 ## Heat Control System 
 
+#### CI and Code Quality
+
+|Build|Cppcheck|Codacy|
+|:--:|:--:|:--:|
+|[![Compile-Linux](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/643b7ca2b2dc4daba1e700c216bb87d9)](https://www.codacy.com/gh/Bharathgopal/Emb-C/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bharathgopal/Emb-C&amp;utm_campaign=Badge_Grade)|
+
 ### Theory
 
 The heat control system is basically used to control the temperature inside a car. Whenever the user or driver gets seated inside the car, the button sensor gets activated. After that, the user gets access to turn on the heater. The temperature sensor monitors the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are performed on the microcontroller, ***Atmega328***.
@@ -57,9 +63,3 @@ Below shown two images where in the 1st image shows the status of the simulation
 ## Activity_4
 ![Act4](https://github.com/259881/Embedded-sys/blob/69e5d6d41ab7e30a3c4d7564f18f6de92c0b7269/Simulation/Activity_4.png)
 ---------------------------------------------------------------------------------------------------------------------------------------------
-
-#### CI and Code Quality
-
-|Build|Cppcheck|Codacy|
-|:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/643b7ca2b2dc4daba1e700c216bb87d9)](https://www.codacy.com/gh/Bharathgopal/Emb-C/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bharathgopal/Emb-C&amp;utm_campaign=Badge_Grade)|
