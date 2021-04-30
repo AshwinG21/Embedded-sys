@@ -1,7 +1,6 @@
 #ifndef _SERIALCOMMUNICATIONUART_H_
 #define _SERIALCOMMUNICATIONUART_H_
 
-
 #include <avr/io.h>
 #include <util/delay.h>
 
@@ -47,6 +46,5 @@ char UARTreadchar();
  * @param data 
  */
 void UARTwritecharacter(char data);
-
 
 #endif
