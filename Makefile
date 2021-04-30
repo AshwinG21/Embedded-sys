@@ -3,11 +3,12 @@ PROJ_NAME = Activities
 BUILD_DIR = Build
 
 # All Source code files
-SRC = src/ButtonSensorHeaterLED.c\
-src/TemperatureSensorADC.c\
-src/ADC_PWMoutput.c\
-src/SerialCommunicationUART.c\
-HeatControlSystem_Main.c
+SRC = seatHeatingApp.c\
+src/Activity_1.c\
+src/Activity_2.c\
+src/Activity_3.c\
+src/Activity_4.c
+
 
 
 # All header file paths
@@ -68,7 +69,5 @@ doc:
 clean:
 	# Remove all the build files and generated document files
 	rm -rf Build
-
+  
 	make -C documentation clean
-#rmdir $(BUILD_DIR)
-#$(RM) $(call FixPath,$(BUILD_DIR)/*)	
