@@ -15,7 +15,7 @@ Below shown two images where in the 1st image shows the status of the simulation
 
 #### ON
 ![ON](https://github.com/259881/Embedded-sys/blob/dd9619d0bf5ec8510b388c13f65093cd88ac2d20/Simulation/Simulation_fnal.gif)
-
+-----------------------------------------------------------------------------------------------------------------------------------
 #### OFF
 ![OFF](https://github.com/259881/Embedded-sys/blob/63daabfd34aad10d20fc0353ba36f3eed21d5bf3/Simulation/Simulation_OFF.png)
 
@@ -27,7 +27,7 @@ Below shown two images where in the 1st image shows the status of the simulation
 |CRO|Serial Monitor|
 |![CRO](https://github.com/259881/Embedded-sys/blob/b0dabf3e9307da78662215f941f1645bfdfb131b/Simulation/Oscilloscope.gif)|![Monitor](https://github.com/259881/Embedded-sys/blob/b0dabf3e9307da78662215f941f1645bfdfb131b/Simulation/Serial_Monitor.gif)|
 
-### Functionality 
+### Function
 
 * When the two switches are closed, the first LED glows indicating the actuation of the system and the heater.
 * Next the analog input from the temperature sensor is received and digitized using ADC.
@@ -41,6 +41,17 @@ Below shown two images where in the 1st image shows the status of the simulation
 |ON|OFF|
 |:--:|:--:|
 |![ON](https://github.com/259881/Embedded-sys/blob/72dab35fbaa4344b5949eac735ad7130e6bf8596/Simulation/simulationON.png)|![OFF](https://github.com/259881/Embedded-sys/blob/a4fb835a0c452559859f0a83f764e4b510c4afe2/Simulation/simulationOFF.png)|
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+## Activity_1
+![Act1](https://github.com/259881/Embedded-sys/blob/84b68e77defa034239c5a0d180628e742bfaf1cc/Simulation/Activity_1.png)
+---------------------------------------------------------------------------------------------------------------------------------------------
+## Activity_2
+--------------------------------------------------------------------------------------------------------------------------------------------
+## Activity_3
+----------------------------------------------------------------------------------------------------------------------------------------------
+## Activity_4
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 #### CI and Code Quality
 
